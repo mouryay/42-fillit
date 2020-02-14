@@ -1,1 +1,1 @@
-# 42-fillit
+Ok, there isn't anything too original about my code here. I followed Jem Cope's github <https://github.com/Jemmeh>. She explained everything step by step. Mine is almost the same except for a few simplifications. I also didn't use libft.
