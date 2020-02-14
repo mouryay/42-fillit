@@ -13,7 +13,7 @@
 #include "fillit.h"
 #include <stdio.h>
 
-int		char_count(char *buf)
+int		block_count(char *buf)
 {
 	int	block_count;
 	int i;
@@ -67,7 +67,7 @@ int		valid(char *buf, int size)
 	i = 0;
 	while (i < size)
 	{
-		if (char_count(buf + i) != 4)
+		if (block_count(buf + i) != 4)
 			return (0);
 		if (adj_count(buf + i) != 6 && adj_count(buf + i) != 8)
 			return (0);
