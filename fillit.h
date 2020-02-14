@@ -27,7 +27,7 @@ typedef	struct		s_tetri
 }					t_tetri;
 
 int					valid(char *buf, int size);
-int					char_count(char *buf);
+int					block_count(char *buf);
 int					adj_count(char *buf);
 t_tetri				*makelist(char *buf, int size, int *countptr);
 t_tetri				*makepiece(char *buf, char letter);
